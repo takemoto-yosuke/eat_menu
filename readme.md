@@ -5,10 +5,10 @@
 
 ## 機能
 サーバー起動後、以下リクエストを送信。  
+curl -X POST -H "Content-Type: application/json" -d "{\"eat\":\"＊＊＊\"}" localhost:3001/eat  
 「＊＊＊」箇所には  
 ASSARI、KOTTERI、NANDEMO  
 のどれかを入力。  
-curl -X POST -H "Content-Type: application/json" -d "{\"eat\":\"＊＊＊\"}" localhost:3001/eat  
 
 実行例  
 curl -X POST -H "Content-Type: application/json" -d "{\"eat\":\"NANDEMO\"}" localhost:3001/eat  
