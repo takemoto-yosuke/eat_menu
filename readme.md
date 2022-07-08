@@ -14,3 +14,7 @@ ASSARI、KOTTERI、NANDEMO
 curl -X POST -H "Content-Type: application/json" -d "{\"eat\":\"NANDEMO\"}" localhost:3001/eat  
 ↓  
 {"status":200,"result":{"PLACE":"JOYFUL"}}
+
+## 疑問
+日本語は文字化けしてしまう。  
+ターミナル環境（Git Bash）が原因？
